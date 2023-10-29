@@ -1,6 +1,0 @@
-on:
-  workflow_run:
-    workflows: [<workflow_name1>, <workflow_name2>, ...]
-    types: [requested, completed]
-  pull_request:
-    types: [opened, edited, closed, reopened]
